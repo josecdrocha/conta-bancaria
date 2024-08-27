@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'telas/fundo_banco.dart'; // Atualize o caminho para refletir a estrutura de diretórios
+import 'telas/fundo_banco.dart'; 
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home:
-          const FundoBanco(), // Certifique-se de que o nome da classe está correto
+          const FundoBanco(), 
     );
   }
 }
